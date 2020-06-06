@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/about_me">
+        <menu>
+            <item android:id="@+id/home" android:title="home" android:icon="@drawable/ic_home" android:iconTint="@drawable/item_navigation_view"></item>
+            <group android:checkableBehavior="single">
+            <item android:title="@string/profile" android:id="@+id/profil"
+                android:icon="@drawable/ic_face_24px" android:iconTint="@drawable/item_navigation_view"/>
+            <item android:title="@string/settings" android:id="@+id/settings"
+                android:icon="@drawable/ic_build_24px" android:iconTint="@drawable/item_navigation_view"/>
+                <item android:title="@string/Logout" android:id="@+id/logout"
+                    android:icon="@drawable/ic_out" android:iconTint="@drawable/item_navigation_view"/>
+            </group>
+        </menu>
+
+
+    </item>
+  <item android:title="@string/hello">
+      <menu>
+          <group android:checkableBehavior="single">
+          <item android:title="@string/contacts" android:id="@+id/contacts"
+              android:icon="@drawable/ic_contacts"/>
+          <item android:title="@string/private_Requests"  android:id="@+id/chats_private_request" android:icon="@drawable/ic_person_add" android:iconTint="@drawable/item_navigation_view"/>
+              <item android:title="@string/chats"  android:id="@+id/chats" android:icon="@drawable/ic_message_24px" android:iconTint="@drawable/item_navigation_view"/>
+              <item android:title="@string/groups"   android:id="@+id/groups" android:icon="@drawable/ic_group_24px" android:iconTint="@drawable/item_navigation_view"></item>
+          </group>
+      </menu>
+
+
+  </item>
+</menu>

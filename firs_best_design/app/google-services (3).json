@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "468868678201",
+    "firebase_url": "https://wherever-together.firebaseio.com",
+    "project_id": "wherever-together",
+    "storage_bucket": "wherever-together.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468868678201:android:f3227b22eb26433c1983e8",
+        "android_client_info": {
+          "package_name": "com.example.firs_best_design"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468868678201-21rc5vjbd9uea2dafuq0eqkl23lj2qn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOLJg5BcZfrnFR1sXd-jmbSMsX5cZyQxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468868678201-21rc5vjbd9uea2dafuq0eqkl23lj2qn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

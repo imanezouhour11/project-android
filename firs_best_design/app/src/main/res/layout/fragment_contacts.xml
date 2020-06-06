@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/container_find_layout" >
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="50dp"
+    android:paddingBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/back_searchview"
+        android:divider="@color/card_bg_color"
+        android:dividerHeight="2dp"
+        android:gravity="top"
+        android:queryHint="Search here"
+        android:visibility="invisible"
+        app:queryHint="Search here..."
+        app:searchIcon="?android:attr/actionModeWebSearchDrawable" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/find_friend"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="18dp"
+    android:layout_marginBottom="48dp"
+    android:clickable="true"
+    app:backgroundTint="@color/yellow"
+    app:srcCompat="@drawable/ic_contacts" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contacts_recyler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchView_chats"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
+</FrameLayout>
